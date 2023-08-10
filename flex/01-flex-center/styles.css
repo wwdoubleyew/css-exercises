@@ -1,0 +1,19 @@
+.container {
+    background-color: dodgerblue;
+    border: 4px solid midnightblue;
+    height: 300px;
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: palevioletred;
+    border: 6px solid maroon;
+    font-weight: bold;
+    height: 80px;
+    text-align: center;
+    width: 80px;
+}
