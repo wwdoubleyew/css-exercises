@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+    background-color: #EEE;
+    font-family: Besley, serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #FFF;
+    border-bottom: 1px solid #DDD;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    /* modified code below */
+    padding: 8px;
+
+    display: flex;
+    gap: 16px;
+}
+
+.profile-image {
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    height: 48px;
+    width: 48px;
+}
+
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.notifications {
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    padding: 8px 24px;
+    /* modified code below */
+}
+
+a {
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    /* modified code below */
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+    /* modified code below */
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    flex: 1;
+}
