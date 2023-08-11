@@ -1,0 +1,35 @@
+.header  {
+    background-color: papayawhip;
+    font-family: monospace;
+    /* solution code below */
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo {
+    background-color: #FFF;
+    color: tomato;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 4px 32px;
+ }
+  
+ul {
+    list-style-type: none;
+    /* solution code below */
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 8px;
+}
+  
+a {
+    background: #FFF;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 8px;
+}
