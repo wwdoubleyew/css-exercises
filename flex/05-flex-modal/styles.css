@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #AAA;
+    color: #333;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    width: 480px;
+/* solution code below */
+    padding: 16px;
+
+    display: flex;
+}
+
+.icon {
+    background-color: lavender;
+    border-radius: 50%;
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    height: 42px;
+    width: 42px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* solution code below */
+
+    flex-shrink: 0;
+}
+
+.close-button {
+    background-color: #EEE;
+    border: 1px solid #EEE;
+    border-radius: 50%;
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    padding: 0;
+    width: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 16px;
+
+}
+
+button.continue {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: #FFF;
+}
+
+button.cancel {
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
+
+/* solution code below */
+.content {
+    margin-left: 16px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.text {
+    margin-bottom: 16px;
+}
